@@ -28,7 +28,7 @@ class Sniffing():
 			use.add_option("-i","--intrface",dest="intrface",help="Write Your Intrface Network Manger")
 			use.add_option("-p","--protocol",dest="protcol",help="Write Your Protcol-Network :Example:icmp")
 			use.add_option("-t","--count",dest="time",help="Write Your Time Snifing",default=5)
-			use.add_option("-s","--save",dest="Save",help="Write Your Save Snifing Packet.txt",default="PacketSnifing.pcap")
+			use.add_option("-s","--save",dest="Save",help="Write Your Save Snifing Packet.pcap",default="PacketSnifing.pcap")
 			use.add_option("-f","--filter",dest="filt",help="Write Your Protcol-Network Infromatsion PRO+:Example:icmp")
 			(options,args) = use.parse_args()
 			if options.intrface  == None :
