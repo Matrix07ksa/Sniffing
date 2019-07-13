@@ -10,6 +10,9 @@
 
 لتشغيل الاداة
 ثبت المكاتب 
+
+
+
 pip3 install scapy
 
 pip3 install optparse
